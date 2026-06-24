@@ -1,0 +1,8 @@
+streamlit
+deepface
+scikit-learn
+opencv-python-headless
+tf-keras
+joblib
+Pillow
+numpy

@@ -4,5 +4,3 @@ opencv-python-headless
 scikit-learn
 joblib
 Pillow
-numpy<2
-tensorflow==2.19.0

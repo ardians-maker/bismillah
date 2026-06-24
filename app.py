@@ -230,7 +230,7 @@ elif menu == "🏢 Admin Faskes":
         faskes_admin = admin_data["faskes"]
         
         st.info(f"👋 Selamat datang Admin dari **{faskes_admin}**")
-        if st.button("Logout Admin", variant="secondary"):
+        if st.button("Logout Admin", type="secondary"):
             st.session_state.admin_user = None
             st.rerun()
             

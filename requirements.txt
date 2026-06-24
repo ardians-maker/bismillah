@@ -1,7 +1,8 @@
 streamlit
 deepface
-scikit-learn
 opencv-python-headless
+scikit-learn
 joblib
 Pillow
-numpy
+numpy<2
+tensorflow==2.19.0

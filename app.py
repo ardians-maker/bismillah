@@ -11,7 +11,7 @@ st.set_page_config(page_title="Face Recognition Faskes", page_icon="🏥")
 st.title("🏥 Portal Pendaftaran Berbasis Wajah")
 
 # Load Model
-MODEL_PATH = '/content/drive/MyDrive/SEC_ARDI/model_svm_arcface_terbaik.pkl'
+MODEL_PATH = 'model_svm_arcface_terbaik.pkl'
 
 @st.cache_resource
 def load_model():
